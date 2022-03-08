@@ -31,7 +31,6 @@ def DataLoad(filename):
     df = pd.read_csv(filename)
     defects = len(df.index)
     return defects
-    return {'DataTable' : df,'NoOfDefects': defects}
 
 def timeFunction(inputs):
     val = inputs['ExecutionTime']
