@@ -1,6 +1,4 @@
 import yaml
-# import pandas as pd
-# import threading as td
 import datetime as dt
 import time
 from yaml.loader import SafeLoader
@@ -63,4 +61,4 @@ for key in workflow_keys:
     log_file.writelines(textStrings)
 print("End")
 log_file.close()
-            
+
